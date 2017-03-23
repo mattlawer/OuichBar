@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E55C61B1E83DFAE004E9CD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E55C61A1E83DFAE004E9CD8 /* AppDelegate.swift */; };
+		4E55C61D1E83DFAE004E9CD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E55C61C1E83DFAE004E9CD8 /* ViewController.swift */; };
+		4E55C61F1E83DFAE004E9CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E55C61E1E83DFAE004E9CD8 /* Assets.xcassets */; };
+		4E55C6221E83DFAE004E9CD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E55C6201E83DFAE004E9CD8 /* Main.storyboard */; };
+		4E55C62D1E83DFAE004E9CD8 /* OuichBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E55C62C1E83DFAE004E9CD8 /* OuichBarTests.swift */; };
+		4E55C6381E83DFAE004E9CD8 /* OuichBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E55C6371E83DFAE004E9CD8 /* OuichBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E55C6291E83DFAE004E9CD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E55C60F1E83DFAD004E9CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E55C6161E83DFAD004E9CD8;
+			remoteInfo = OuichBar;
+		};
+		4E55C6341E83DFAE004E9CD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E55C60F1E83DFAD004E9CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E55C6161E83DFAD004E9CD8;
+			remoteInfo = OuichBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E55C6171E83DFAE004E9CD8 /* OuichBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OuichBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E55C61A1E83DFAE004E9CD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E55C61C1E83DFAE004E9CD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E55C61E1E83DFAE004E9CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E55C6211E83DFAE004E9CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E55C6231E83DFAE004E9CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E55C6281E83DFAE004E9CD8 /* OuichBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OuichBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E55C62C1E83DFAE004E9CD8 /* OuichBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuichBarTests.swift; sourceTree = "<group>"; };
+		4E55C62E1E83DFAE004E9CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E55C6331E83DFAE004E9CD8 /* OuichBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OuichBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E55C6371E83DFAE004E9CD8 /* OuichBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuichBarUITests.swift; sourceTree = "<group>"; };
+		4E55C6391E83DFAE004E9CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E55C6141E83DFAD004E9CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E55C6251E83DFAE004E9CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E55C6301E83DFAE004E9CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E55C60E1E83DFAD004E9CD8 = {
+			isa = PBXGroup;
+			children = (
+				4E55C6191E83DFAE004E9CD8 /* OuichBar */,
+				4E55C62B1E83DFAE004E9CD8 /* OuichBarTests */,
+				4E55C6361E83DFAE004E9CD8 /* OuichBarUITests */,
+				4E55C6181E83DFAE004E9CD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E55C6181E83DFAE004E9CD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E55C6171E83DFAE004E9CD8 /* OuichBar.app */,
+				4E55C6281E83DFAE004E9CD8 /* OuichBarTests.xctest */,
+				4E55C6331E83DFAE004E9CD8 /* OuichBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E55C6191E83DFAE004E9CD8 /* OuichBar */ = {
+			isa = PBXGroup;
+			children = (
+				4E55C61A1E83DFAE004E9CD8 /* AppDelegate.swift */,
+				4E55C61C1E83DFAE004E9CD8 /* ViewController.swift */,
+				4E55C61E1E83DFAE004E9CD8 /* Assets.xcassets */,
+				4E55C6201E83DFAE004E9CD8 /* Main.storyboard */,
+				4E55C6231E83DFAE004E9CD8 /* Info.plist */,
+			);
+			path = OuichBar;
+			sourceTree = "<group>";
+		};
+		4E55C62B1E83DFAE004E9CD8 /* OuichBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E55C62C1E83DFAE004E9CD8 /* OuichBarTests.swift */,
+				4E55C62E1E83DFAE004E9CD8 /* Info.plist */,
+			);
+			path = OuichBarTests;
+			sourceTree = "<group>";
+		};
+		4E55C6361E83DFAE004E9CD8 /* OuichBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E55C6371E83DFAE004E9CD8 /* OuichBarUITests.swift */,
+				4E55C6391E83DFAE004E9CD8 /* Info.plist */,
+			);
+			path = OuichBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E55C6161E83DFAD004E9CD8 /* OuichBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E55C63C1E83DFAE004E9CD8 /* Build configuration list for PBXNativeTarget "OuichBar" */;
+			buildPhases = (
+				4E55C6131E83DFAD004E9CD8 /* Sources */,
+				4E55C6141E83DFAD004E9CD8 /* Frameworks */,
+				4E55C6151E83DFAD004E9CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OuichBar;
+			productName = OuichBar;
+			productReference = 4E55C6171E83DFAE004E9CD8 /* OuichBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E55C6271E83DFAE004E9CD8 /* OuichBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E55C63F1E83DFAE004E9CD8 /* Build configuration list for PBXNativeTarget "OuichBarTests" */;
+			buildPhases = (
+				4E55C6241E83DFAE004E9CD8 /* Sources */,
+				4E55C6251E83DFAE004E9CD8 /* Frameworks */,
+				4E55C6261E83DFAE004E9CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E55C62A1E83DFAE004E9CD8 /* PBXTargetDependency */,
+			);
+			name = OuichBarTests;
+			productName = OuichBarTests;
+			productReference = 4E55C6281E83DFAE004E9CD8 /* OuichBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E55C6321E83DFAE004E9CD8 /* OuichBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E55C6421E83DFAE004E9CD8 /* Build configuration list for PBXNativeTarget "OuichBarUITests" */;
+			buildPhases = (
+				4E55C62F1E83DFAE004E9CD8 /* Sources */,
+				4E55C6301E83DFAE004E9CD8 /* Frameworks */,
+				4E55C6311E83DFAE004E9CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E55C6351E83DFAE004E9CD8 /* PBXTargetDependency */,
+			);
+			name = OuichBarUITests;
+			productName = OuichBarUITests;
+			productReference = 4E55C6331E83DFAE004E9CD8 /* OuichBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E55C60F1E83DFAD004E9CD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = mathieu;
+				TargetAttributes = {
+					4E55C6161E83DFAD004E9CD8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3ZXVY9JDCR;
+						ProvisioningStyle = Automatic;
+					};
+					4E55C6271E83DFAE004E9CD8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3ZXVY9JDCR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E55C6161E83DFAD004E9CD8;
+					};
+					4E55C6321E83DFAE004E9CD8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3ZXVY9JDCR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E55C6161E83DFAD004E9CD8;
+					};
+				};
+			};
+			buildConfigurationList = 4E55C6121E83DFAD004E9CD8 /* Build configuration list for PBXProject "OuichBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E55C60E1E83DFAD004E9CD8;
+			productRefGroup = 4E55C6181E83DFAE004E9CD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E55C6161E83DFAD004E9CD8 /* OuichBar */,
+				4E55C6271E83DFAE004E9CD8 /* OuichBarTests */,
+				4E55C6321E83DFAE004E9CD8 /* OuichBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E55C6151E83DFAD004E9CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E55C61F1E83DFAE004E9CD8 /* Assets.xcassets in Resources */,
+				4E55C6221E83DFAE004E9CD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E55C6261E83DFAE004E9CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E55C6311E83DFAE004E9CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E55C6131E83DFAD004E9CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E55C61D1E83DFAE004E9CD8 /* ViewController.swift in Sources */,
+				4E55C61B1E83DFAE004E9CD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E55C6241E83DFAE004E9CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E55C62D1E83DFAE004E9CD8 /* OuichBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E55C62F1E83DFAE004E9CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E55C6381E83DFAE004E9CD8 /* OuichBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E55C62A1E83DFAE004E9CD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E55C6161E83DFAD004E9CD8 /* OuichBar */;
+			targetProxy = 4E55C6291E83DFAE004E9CD8 /* PBXContainerItemProxy */;
+		};
+		4E55C6351E83DFAE004E9CD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E55C6161E83DFAD004E9CD8 /* OuichBar */;
+			targetProxy = 4E55C6341E83DFAE004E9CD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E55C6201E83DFAE004E9CD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E55C6211E83DFAE004E9CD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E55C63A1E83DFAE004E9CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E55C63B1E83DFAE004E9CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		4E55C63D1E83DFAE004E9CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3ZXVY9JDCR;
+				INFOPLIST_FILE = OuichBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathieubolard.OuichBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4E55C63E1E83DFAE004E9CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3ZXVY9JDCR;
+				INFOPLIST_FILE = OuichBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathieubolard.OuichBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4E55C6401E83DFAE004E9CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3ZXVY9JDCR;
+				INFOPLIST_FILE = OuichBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathieubolard.OuichBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OuichBar.app/Contents/MacOS/OuichBar";
+			};
+			name = Debug;
+		};
+		4E55C6411E83DFAE004E9CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3ZXVY9JDCR;
+				INFOPLIST_FILE = OuichBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathieubolard.OuichBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OuichBar.app/Contents/MacOS/OuichBar";
+			};
+			name = Release;
+		};
+		4E55C6431E83DFAE004E9CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3ZXVY9JDCR;
+				INFOPLIST_FILE = OuichBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathieubolard.OuichBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OuichBar;
+			};
+			name = Debug;
+		};
+		4E55C6441E83DFAE004E9CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3ZXVY9JDCR;
+				INFOPLIST_FILE = OuichBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathieubolard.OuichBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OuichBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E55C6121E83DFAD004E9CD8 /* Build configuration list for PBXProject "OuichBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E55C63A1E83DFAE004E9CD8 /* Debug */,
+				4E55C63B1E83DFAE004E9CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E55C63C1E83DFAE004E9CD8 /* Build configuration list for PBXNativeTarget "OuichBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E55C63D1E83DFAE004E9CD8 /* Debug */,
+				4E55C63E1E83DFAE004E9CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E55C63F1E83DFAE004E9CD8 /* Build configuration list for PBXNativeTarget "OuichBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E55C6401E83DFAE004E9CD8 /* Debug */,
+				4E55C6411E83DFAE004E9CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E55C6421E83DFAE004E9CD8 /* Build configuration list for PBXNativeTarget "OuichBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E55C6431E83DFAE004E9CD8 /* Debug */,
+				4E55C6441E83DFAE004E9CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E55C60F1E83DFAD004E9CD8 /* Project object */;
+}
