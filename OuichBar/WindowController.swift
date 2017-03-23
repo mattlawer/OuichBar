@@ -20,6 +20,7 @@ fileprivate extension NSTouchBarItemIdentifier {
 class WindowController: NSWindowController {
 
     var ouiches = [String]()
+    let scrubberIdentifier = "scrubberItemViewID";
 
     override func windowDidLoad() {
         super.windowDidLoad()
@@ -58,7 +59,7 @@ extension WindowController: NSTouchBarDelegate {
 
             let scrubber = NSScrubber()
             scrubber.scrubberLayout = NSScrubberFlowLayout()
-            scrubber.register(NSScrubberItemView.self, forItemIdentifier: "NSScrubberItemView")
+            scrubber.register(NSScrubberItemView.self, forItemIdentifier: scrubberIdentifier)
             scrubber.mode = .free
             scrubber.selectionBackgroundStyle = .outlineOverlay
             scrubber.delegate = self
@@ -82,7 +83,7 @@ extension WindowController: NSScrubberDelegate, NSScrubberDataSource, NSScrubber
     }
 
     func scrubber(_ scrubber: NSScrubber, viewForItemAt index: Int) -> NSScrubberItemView {
-        let itemView = scrubber.makeItem(withIdentifier: "NSScrubberItemView", owner: nil)!
+        let itemView = scrubber.makeItem(withIdentifier: scrubberIdentifier, owner: nil)!
 
         let button = NSButton(frame: NSRect(origin: NSPoint(x: 1.0, y: 0.0), size: CGSize(width: itemView.bounds.width-2.0, height: itemView.bounds.height)))
         button.autoresizingMask = [.viewWidthSizable, .viewHeightSizable]
@@ -143,7 +144,7 @@ extension WindowController: NSScrubberDelegate, NSScrubberDataSource, NSScrubber
 
     func scrubber(_ scrubber: NSScrubber, didSelectItemAt index: Int) {
         print("play \(ouiches[index]).mp3")
-        scrubber.selectedIndex = -1
+        scrubber.selectedIndex = -1 // deselect item
         if let soundURL = Bundle.main.url(forResource: ouiches[index], withExtension: "mp3") {
             var mySound: SystemSoundID = 0
             AudioServicesCreateSystemSoundID(soundURL as CFURL, &mySound)
