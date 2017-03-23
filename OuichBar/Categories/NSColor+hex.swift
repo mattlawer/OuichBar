@@ -1,9 +1,9 @@
 //
 //  NSColor+hex.swift
-//  TouchbarTalk
+//  OuichBar
 //
-//  Created by mathieu on 16/02/2017.
-//  Copyright © 2017 Sihao. All rights reserved.
+//  Created by mathieu on 23/03/2017.
+//  Copyright © 2017 mathieu. All rights reserved.
 //
 
 import Cocoa
