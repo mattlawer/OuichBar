@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11134"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -653,7 +655,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="OuichBar" customModuleProvider="target"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
@@ -661,7 +663,7 @@
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
             <objects>
-                <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
+                <windowController id="B8D-0N-5wS" customClass="WindowController" customModule="OuichBar" customModuleProvider="target" sceneMemberID="viewController">
                     <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
@@ -679,10 +681,26 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="OuichBar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNa-Od-1x1">
+                                <rect key="frame" x="96" y="69" width="289" height="132"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Ouich!es" id="ZhR-hx-WN5">
+                                    <font key="font" size="88" name="Lobster-Regular"/>
+                                    <color key="textColor" red="0.10940676554317885" green="0.4417664568112295" blue="1" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="XNa-Od-1x1" secondAttribute="bottom" constant="20" id="MOy-mL-zQn"/>
+                            <constraint firstItem="XNa-Od-1x1" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="MlH-TG-Q3S"/>
+                            <constraint firstItem="XNa-Od-1x1" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="SbD-BB-LgW"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="XNa-Od-1x1" secondAttribute="trailing" constant="20" id="b1V-1E-oYw"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
